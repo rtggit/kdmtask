@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./kdm.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="bg-black">
+    <div class="dots-container">
+      <div class="dots"></div>
+      <div class="dots"></div>
+      <div class="dots"></div>
+      <div class="dots"></div>
+      <div class="dots"></div>
+    </div>
+    <nav class="navbar navbar-expand-lg  position-fixed fixed-top">
+      <div class="container-fluid navvs">
+        <a class="navbar-brand " href="#"><img class="logo" src="./img/logo.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between">
+            <li class="nav-item ">
+              <a class="fw-bold fs-5 nav-link sss px-4 " aria-current="page" href="./kdm.html">HOME</a>
+              <!-- <li id="hover" class="dropdow nav-item hover-1  "><a class="nav-link px-4"
+                                href="#">International <i class="fa-solid fa-angle-down hh fs-6"></i> </a>
+                        </li> -->
+            <li class="nav-item hover-1 dropdow " id="hover-1">
+              <a class="fw-bold sss fs-5 nav-link text-dark px-4 dropdown-toggle" href="./kdmproducts.html"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PRODUCTS
+              </a>
+              <ul class="dropdown-menu dropdown-content-1  position-absolute " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="modularkitchen.html">MODULAR KITCHEN</a></li>
+                <li><a class="dropdown-item" href="wardrob.html">WARDROBE</a></li>
+                <li><a class="dropdown-item" href="maia.html">MALIA</a></li>
+                <li><a class="dropdown-item" href="tv.cabinate.html">T.V CABINET</a></li>
+                <li><a class="dropdown-item" href="officefurniture.html">OFFICE FURNITURE</a></li>
+                <li><a class="dropdown-item" href="wallcelling.html">WALL CEILING </a></li>
+                <li><a class="dropdown-item" href="wallpaneling.html">WALL PANELING </a></li>
+                <li><a class="dropdown-item" href="bed.html">BED</a></li>
+                <li><a class="dropdown-item" href="portebalhuts.html">PORTABLE HUTS</a></li>
+                <li><a class="dropdown-item" href="security.html">SECURITY CABIN</a></li>
+                <li><a class="dropdown-item" href="partation.html">PARTITION</a></li>
+                <li><a class="dropdown-item" href="furniture.html">FURNITURE</a></li>
+                <li><a class="dropdown-item" href="door.htmt">DOOR</a></li>
+                <li><a class="dropdown-item" href="tablee.html">TABLE</a></li>
+                <li><a class="dropdown-item" href="tableart.html">TABLE ART</a></li>
+                <li><a class="dropdown-item" href="temple.html">TEMPLE</a></li>
+                <li><a class="dropdown-item" href="dressingtable.html">DRESSING TABLE</a></li>
+              </ul>
+            <li class="nav-item ">
+              <a class="nav-link sss  fw-bold fs-5 px-4" aria-current="page" href="./catalouge.html">CATALOGUE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sss fw-bold fs-5 px-4" aria-current="page" href="./clients.html">CLIENTS</a>
+            </li>
+            <li class="nav-item hover-2 dropdow " id="hover-2">
+              <a class="fw-bold sss fs-5 nav-link text-dark px-4 dropdown-toggle" href="./kdmproducts.html"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                BRANDS
+              </a>
+              <ul class="dropdown-menu dropdown-content-2  position-absolute " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="kdmplast.html">KDM PREMUM TEXTURE</a></li>
+                <li><a class="dropdown-item" href="kdmgold.html">KDM GOLD TEXTURE</a></li>
+                <li><a class="dropdown-item" href="kdmplatinum.html">KDM DIAMOND</a></li>
+                <li><a class="dropdown-item" href="kdmsilver.html">KDM SILVER</a></li>
+              </ul>
+            <li class="nav-item ">
+              <a class="nav-link  sss fw-bold fs-5 px-4" aria-current="page" href="./kdm about us.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sss fw-bold fs-5 px-4" aria-current="page" href="./kdmcontect us.html">CONTACT US</a>
+            </li>
+          </ul>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    </div>
+  </section>
+  <img src="" alt="">
+  <section class="cd-slider container-fluid ">
+    <ul>
+      <li data-color="#000">
+        <div class=" content img-fluid " style="background-image:url(../kdm/img/slider\(1\).png)">
+          <blockquote>
+
+          </blockquote>
+        </div>
+      </li>
+      <li data-color="#000">
+        <div class="content img-fluid" style="background-image:url(../kdm/img/slider2222.png)">
+          <blockquote>
+            <P></P>
+          </blockquote>
+        </div>
+      </li>
+
+      <li data-color="#000">
+        <div class="content img-fluid" style="background-image:url(../kdm/img/nnnn.jpg)">
+          <blockquote>
+
+          </blockquote>
+        </div>
+      </li>
+      <!-- <li data-color="#000">
+        <div class="content img-fluid" style="background-image:url(../kdm/img/slider444.png)">
+          <blockquote>
+          </blockquote>
+        </div>
+      </li> -->
+    </ul>
+    <nav class="navs">
+      <div><a class="prev" href="#"></a></div>
+      <div><a class="next" href="#"></a></div>
+    </nav>
+  </section>
+  <section class="bg-black">
+    <div class="container-fluiid">
+      <div class="sky">
+        <!-- <div class="text">#CODEVEMBER</div> -->
+        <div class="stars"></div>
+        <div class="stars1"></div>
+        <div class="stars2"></div>
+        <div class="shooting-stars"></div>
+        <section class="sec-2">
+          <div class="container-flude">
+            <h1 class="p1">KDM Plast Industries - Since 2016</h1>
+          </div>
+          <div class="container">
+
+            <div class="row justify-content-around">
+              <div class="col-12 col-lg-8">
+
+                <p class="p3">KDM pvc Industries situated at (ranesar) 30 Kilomeater from Ahemdabad, for manufacturing
+                  high
+                  quality pvc modular furniture under the brand name of "KDM PLAST" .</p>
+                <p class="p3">
+                  KDM Plast is brand synonymous with quality and reliability. A household name in upvc modular
+                  furniture, KDM PVC
+                  plast is your go-to-ecologically aware and pocket-friendly company when it comes to designing your
+                  dream
+                  household interior. KDM Plast offers a diverse range of unrivaled products in strength,
+                  reliability, and
+                  your home or
+                  durability with complete expertise in the interior technicalities involved building or renovating
+                  office, we have established the industries quality, range, and service standard.</p>
+
+              </div>
+              <div class="col-12 col-lg-4 po-1 imgwidth">
+                <img class="h-100 w-100 img-fluid rounded-5" src="../kdm/img/wh2.jpg" alt="">
+              </div>
+            </div>
+            <div class="row justify-content-between">
+              <div class=" col-12 col-lg-4 po-1">
+                <img class="h-75 w-100  mt-5 img-fluid rounded-5 " src="../kdm/img/s.jpg" alt="">
+              </div>
+              <div class="col-12 col-lg-8 col mt-5">
+                <p class="p3">
+                  KDM plast commitment to the environment has resulted in manufacturing products with lesser carbon
+                  footprint.
+                  KDM plast has the widest range of green choices for our customers which not only includes products
+                  but also
+                  services such as green interiors and recycling.
+                </p>
+                <p class="p3">
+                  Currently present in over 100+ cities with 1 company owned stores and over 1000+ dealers, KDM plast
+                  is one of
+                  the largest divisions of upvc modular furniture manufacturer company in india.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="line"></div>
+        <section class="sec-5">
+          <div class="p20 container-fluid po-1">
+            <h1>KEY FEATURE AND BENEFITS</h1>
+          </div>
+          <div class="container ">
+
+            <div class="row justify-content-between my-5 ">
+              <div class="cardd card photo place col-3 mx-auto" style="width: 16rem;">
+                <img src="../kdm/img/product-durability.png" class=" card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="fw-bold fs-5 pe-5  card-text">DURABLE</p>
+                </div>
+              </div>
+              <div class="place card photo cardd col-3 mx-auto" style="width: 16rem;">
+                <img src="../kdm/img/delivery-truck.png" class=" card-img-top " alt="...">
+                <div class="card-body">
+                  <p class="card-text fw-bold fs-5 pe-lg-4  ">Easy To Transport</p>
+                </div>
+              </div>
+              <div class="cardd card photo col-3 place mx-auto" style="width: 16rem;">
+                <img src="../kdm/img/hygiene.png" class="card-img-top" alt="...">
+                <div class="card-body  align-items-center">
+                  <p class="card-text fw-bold fs-5  pe-5 ">HYGIENE</p>
+                </div>
+              </div>
+              <div class="card cardd photo col-3 place mx-auto" style="width: 16rem;">
+                <img src="../kdm/img/maintenance.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fw-bold fs-5  pe-lg-4">MAINTAENANCE</p>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-between my-5 mx-auto">
+              <div class="cardd card photo col-3 place mx-auto" style="width: 16rem;">
+                <img src="../kdm/img/100322030045Durable.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fw-bold fs-5 px-5 ">DURABLE</p>
+                </div>
+              </div>
+              <div class="cardd  card photo col-3 place mx-auto" style="width: 16rem;">
+                <img src="../kdm/img/budget.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fw-bold fs-5  pe-lg-5 ">BUDGET</p>
+                </div>
+              </div>
+              <div class="cardd  card photo col-3 place mx-auto " style="width: 16rem;">
+                <img src="../kdm/img/check-sign.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fw-bold fs-5  pe-lg-5">CHECK-SIGN</p>
+                </div>
+              </div>
+              <div class="cardd  card photo col-3  place mx-auto" style="width: 16rem;">
+                <img src="../kdm/img/earth.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fw-bold fs-5  pe-lg-5">EARTH</p>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-between pb-5">
+              <div class="cardd card photo col-3 place mx-auto" style="width: 16rem;">
+                <img src="../kdm/img/no-bugs.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fw-bold fs-5  pe-lg-5">NO-BUGS</p>
+                </div>
+              </div>
+              <div class="cardd card photo col-3 place mx-auto" style="width: 16rem;">
+                <img src="../kdm/img/nontoxic.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fw-bold fs-5  pe-lg-5">NON-TOXIC</p>
+                </div>
+              </div>
+              <div class="cardd card photo col-3 place mx-auto" style="width: 16rem;">
+                <img src="../kdm/img/product-durability.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fw-bold fs-5 p8 ">PRODUCT-DURABILITY</p>
+                </div>
+              </div>
+              <div class="cardd card photo col-3 place mx-auto" style="width: 16rem;">
+                <img src="../kdm/img/recycle.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fw-bold fs-5 text-center  pe-lg-5">RECYCLE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="">
+          <div class="p20 container-fluid ">
+            <h1>PRODUCTS</h1>
+          </div>
+        </div>
+        <section class="sec-4 container">
+
+          <div class="options">
+            <div class="option active"
+              style="--optionBackground:url(../kdm/img/Bitmap.png);background-repeat: no-repeat;background-size: cover;">
+              <div class="shadow"></div>
+              <div class="label">
+                <div class="icon">
+                  <i class="fas fa-walking"></i>
+                </div>
+                <div class="info">
+                  <div class="main">KITCHEN</div>
+                  <div class="sub">key for quality</div>
+                </div>
+              </div>
+            </div>
+            <div class="option"
+              style="--optionBackground:url(../kdm/img/savan\ 3\ \(1\).jpg);background-repeat: no-repeat;background-size: cover;">
+              <div class="shadow"></div>
+              <div class="label">
+                <div class="icon">
+                  <i class="fas fa-snowflake"></i>
+                </div>
+                <div class="info">
+                  <div class="main">HALL</div>
+                  <div class="sub">Omuke trughte a otufta</div>
+                </div>
+              </div>
+            </div>
+            <div class="option"
+              style="--optionBackground:url(../kdm/img/savan\ \(3\).jpg);background-repeat: no-repeat;background-size: cover;">
+              <div class="shadow"></div>
+              <div class="label">
+                <div class="icon">
+                  <i class="fas fa-tree"></i>
+                </div>
+                <div class="info">
+                  <div class="main">LIVING ROOM</div>
+                  <div class="sub">Omuke trughte a otufta</div>
+                </div>
+              </div>
+            </div>
+            <div class="option"
+              style="--optionBackground:url(../kdm/img/savan\ 1.jpg);background-repeat: no-repeat;background-size: cover;">
+              <div class="shadow"></div>
+              <div class="label">
+                <div class="icon">
+                  <i class="fas fa-tint"></i>
+                </div>
+                <div class="info">
+                  <div class="main">BEDROOM</div>
+                  <div class="sub">Omuke trughte a otufta</div>
+                </div>
+              </div>
+            </div>
+            <div class="option"
+              style="--optionBackground:url(../kdm/img/savan\ 4\ \(1\).jpg);background-repeat: no-repeat;background-size: cover;">
+              <div class="shadow"></div>
+              <div class="label">
+                <div class="icon">
+                  <i class="fas fa-sun"></i>
+                </div>
+                <div class="info">
+                  <div class="main">OFFICE</div>
+                  <div class="sub">Omuke trughte a otufta</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <video class="sleep-video" autoplay muted loop id="myVideo">
+            <source src="./img/video2.mp4" type="video/mp4">
+            <!-- <source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg"> -->
+          </video>
+          <div class="contentt poo-1 ">
+
+            <!-- Use a button to pause/play the video with JavaScript -->
+            <button id="myBtn" onclick="myFunction()">Pause</button>
+          </div>
+
+        </section>
+        <section class="sec-3">
+          <div class="container-fluid 0">
+            <h1 class="p1">Save Environment</h1>
+          </div>
+          <div class="container">
+            <div class="row jcs">
+              <div class="col-12 col-lg-8">
+                <p class="p3 mt-5 me-3">We believe in environmental preservation and care, as evidenced by the manner we
+                  design
+                  and
+                  manufacture our products. From the raw materials to the design process, everything is
+                  environmentally
+                  friendly.
+                </p>
+                <p class="p3 me-3">
+                  This provides a purposeful focus on environmentally friendly company strategies such as energy
+                  conservation,
+                  the use of sustainable components, and resource conservation. Because the stabilisers used to make
+                  UPVC
+                  profiles are non-toxic, they do not cause any harm when utilised in human environments. We start
+                  with recycled
+                  and lead-free UPVC, which is then melted and extruded into a continuous profile. The trash generated
+                  during
+                  our production process is disposed of in proper ways, ensuring that no pollution of water or land
+                  occurs.</p>
+                <p class="p3 me-3">
+                  We are very aware of our trash and actively seek for opportunities to reduce, recycle, and reuse. We
+                  form
+                  bonds not only with people but also with our surroundings. </p>
+              </div>
+              <div class="sec-3-imgg col-lg-4 my-5 col-12 card">
+                <img class="w-100 h-100" src="../kdm/img/save_tree.png" alt="">
+              </div>
+
+            </div>
+            <div class="row jcs">
+              <div class="sec-3-img  my-5 col-lg-4 col-12 card">
+                <img class="w-100 h-100" src="../kdm/img/save_tree1.png" alt="">
+              </div>
+              <div class="col-lg-8 col-12 ">
+                <p class="p3 pt-5">Wood is a priceless gift from Mother Nature. We consume the roots of trees that our
+                  forebears
+                  planted years ago. Do we, on the other hand, consider the future generation? No, the answer is no.
+                  Because
+                  the
+                  practise of planting trees has nearly ceased and has become non-mandatory in recent decades. This has
+                  resulted
+                  in a significant loss of green cover on the planet.
+                </p>
+                <p class="p3">
+                  today, we have two choices: enormous tree planting or switching to wood substitute products. The first
+                  option
+                  is more significant, but it will take years to complete; nevertheless, the second option is right in
+                  front
+                  of
+                  us, and we can begin using it right now.
+                </p>
+                <p class="p3">
+                  So, instead of using natural wood, start using upvc. After all, we must consider our children's
+                  future.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <section class="sec-6">
+    <div class="ourbrands bg-black">
+      <img class="img-fluid" src="../kdm/img/SAVAN_OUR_BRANDS-removebg-preview.png" alt="">
+    </div>
+    <div class="container">
+      <div class="cart-2">
+        <div class="row justify-content-between">
+          <div class="col-lg-5 col-12 footer py-5">
+            <h4>KDM PLAST INDUSTRIES</h4>
+            <p>With their unwavering efforts and amazingly imaginative designs, we have set a new standard for UPVC
+              profiles. At a time when the majority of buyers choose UPVC, those products that are uniquely designed
+              stand out.</p>
+            <p><i class="fa-solid fa-location-dot"></i>Ahemdabad,gujarat,india</p>
+            <p><i class="fa-solid fa-envelope"></i>kdmplast2016@yahoo.com</p>
+            <p><i class="fa-solid fa-phone"></i>9624019148</p>
+            <p><i class="fa-solid fa-phone"></i>9624019147</p>
+            <p><i class="fa-solid fa-phone"></i>9624019149</p>
+            <i><img src="../kdm/img/LOGO-removebg-preview.png" alt=""></i>
+            <!-- <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-whatsapp"></i> -->
+          </div>
+          <div class="footer col-lg-2 col-12 py-5">
+            <h4>MORE INFO</h4>
+            <li> <a href="interiar.html" class="text-decoration-none text-light"> Interior Corner</a></li>
+            <li> <a href="recerch.html" class="text-decoration-none text-light"> Research</a></li>
+            <li> <a href="raw materials.html" class="text-decoration-none text-light"> Raw Materials </a></li>
+            <li> <a href="carrear.html" class="text-decoration-none text-light"> Careers</a></li>
+            <li> <a href="product.html" class="text-decoration-none text-light"> Product Profile</a></li>
+            <li> <a href="environment.html" class="text-decoration-none text-light"> Environment Care</a></li>
+            <li> <a href="productcare.html" class="text-decoration-none text-light"> Product Care </a></li>
+            <li> <a href="warranty.html" class="text-decoration-none text-light"> Warranty </a></li>
+
+          </div>
+          <div class="footer col-lg-2 col-12 py-5">
+            <h4>SERVICES</h4>
+            <li><a href="clients.html" class="text-decoration-none text-light"> Clients</a></li>
+            <li><a href="kdm about us.html" class="text-decoration-none text-light"> About Us</a></li>
+            <li><a href="kdmcontect us.html" class="text-decoration-none text-light"> Contact Us</a></li>
+
+          </div>
+          <div class="footer col-lg-2 col-12 py-5">
+            <h4>OTHER LINK</h4>
+            <li><a href="modularkitchen.html" class="text-decoration-none text-light"> pvc Modular </a></li>
+            <li><a href="wallpaneling.html" class="text-decoration-none text-light"> pvc Wall panel</a></li>
+            <li><a href="door.html" class="text-decoration-none text-light"> pvc Door </a></li>
+            <li><a href="kdmgold.html" class="text-decoration-none text-light"> pvc gold</a></li>
+            <li><a href="kdmplast.html" class="text-decoration-none text-light"> pvc Profiles </a></li>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-center">© Copyright 2023. Made by savan javiya</p>
+  </section>
+  <script>
+    (function () {
+
+      var autoUpdate = false,
+        timeTrans = 5000;
+
+      var cdSlider = document.querySelector('.cd-slider'),
+        item = cdSlider.querySelectorAll("li"),
+        nav = cdSlider.querySelector("nav");
+
+      item[0].className = "current_slide";
+
+      for (var i = 0, len = item.length; i < len; i++) {
+        var color = item[i].getAttribute("data-color");
+        item[i].style.backgroundColor = color;
+      }
+
+      // Detect IE
+      // hide ripple effect on IE9
+      var ua = window.navigator.userAgent;
+      var msie = ua.indexOf("MSIE");
+      if (msie > 0) {
+        var version = parseInt(ua.substring(msie + 5, ua.indexOf(".", msie)));
+        if (version === 9) { cdSlider.className = "cd-slider ie9"; }
+      }
+
+      if (item.length <= 1) {
+        nav.style.display = "none";
+      }
+
+      function prevSlide() {
+        var currentSlide = cdSlider.querySelector("li.current_slide"),
+          prevElement = currentSlide.previousElementSibling,
+          prevSlide = (prevElement !== null) ? prevElement : item[item.length - 1],
+          prevColor = prevSlide.getAttribute("data-color"),
+          el = document.createElement('span');
+
+        currentSlide.className = "";
+        prevSlide.className = "current_slide";
+
+        nav.children[0].appendChild(el);
+
+        var size = (cdSlider.clientWidth >= cdSlider.clientHeight) ? cdSlider.clientWidth * 2 : cdSlider.clientHeight * 2,
+          ripple = nav.children[0].querySelector("span");
+
+        ripple.style.height = size + 'px';
+        ripple.style.width = size + 'px';
+        ripple.style.backgroundColor = prevColor;
+
+        ripple.addEventListener("webkitTransitionEnd", function () {
+          if (this.parentNode) {
+            this.parentNode.removeChild(this);
+          }
+        });
+
+        ripple.addEventListener("transitionend", function () {
+          if (this.parentNode) {
+            this.parentNode.removeChild(this);
+          }
+        });
+
+      }
+
+      function nextSlide() {
+        var currentSlide = cdSlider.querySelector("li.current_slide"),
+          nextElement = currentSlide.nextElementSibling,
+          nextSlide = (nextElement !== null) ? nextElement : item[0],
+          nextColor = nextSlide.getAttribute("data-color"),
+          el = document.createElement('span');
+
+        currentSlide.className = "";
+        nextSlide.className = "current_slide";
+
+        nav.children[1].appendChild(el);
+
+        var size = (cdSlider.clientWidth >= cdSlider.clientHeight) ? cdSlider.clientWidth * 2 : cdSlider.clientHeight * 2,
+          ripple = nav.children[1].querySelector("span");
+
+        ripple.style.height = size + 'px';
+        ripple.style.width = size + 'px';
+        ripple.style.backgroundColor = nextColor;
+
+        ripple.addEventListener("webkitTransitionEnd", function () {
+          if (this.parentNode) {
+            this.parentNode.removeChild(this);
+          }
+        });
+
+        ripple.addEventListener("transitionend", function () {
+          if (this.parentNode) {
+            this.parentNode.removeChild(this);
+          }
+        });
+
+      }
+
+      updateNavColor();
+
+      function updateNavColor() {
+        var currentSlide = cdSlider.querySelector("li.current_slide");
+
+        var nextColor = (currentSlide.nextElementSibling !== null) ? currentSlide.nextElementSibling.getAttribute("data-color") : item[0].getAttribute("data-color");
+        var prevColor = (currentSlide.previousElementSibling !== null) ? currentSlide.previousElementSibling.getAttribute("data-color") : item[item.length - 1].getAttribute("data-color");
+
+        if (item.length > 2) {
+          nav.querySelector(".prev").style.backgroundColor = prevColor;
+          nav.querySelector(".next").style.backgroundColor = nextColor;
+        }
+      }
+
+      nav.querySelector(".next").addEventListener('click', function (event) {
+        event.preventDefault();
+        nextSlide();
+        updateNavColor();
+      });
+
+      nav.querySelector(".prev").addEventListener("click", function (event) {
+        event.preventDefault();
+        prevSlide();
+        updateNavColor();
+      });
+
+      //autoUpdate
+      setInterval(function () {
+        if (autoUpdate) {
+          nextSlide();
+          updateNavColor();
+        };
+      }, timeTrans);
+
+    })();
+    $(".option").click(function () {
+      $(".option").removeClass("active");
+      $(this).addClass("active");
+
+    });
+    window.addEventListener("load", () => {
+      const loader = document.querySelector(".dots-container");
+      // loader.style.opacity = "0"
+      setTimeout(() => {
+        // document.body.remove("dots-container")
+        loader.style.display = "none"
+
+      }, 1000);
+    });
+
+    $(".hover-1").hover(function () {
+      $(".dropdown-content-1").show(1000)
+      //  $(".dropdown-content-1").hide()
+
+    });
+    $(".hover-1").hover(function () {
+      $(".hover-1").mouseleave(function () {
+        $(".dropdown-content-1").hide(1000)
+
+      });
+
+    });
+    $(".hover-2").hover(function () {
+      $(".dropdown-content-2").show(1000)
+      //  $(".dropdown-content-1").hide()
+
+    });
+    $(".hover-2").hover(function () {
+      $(".hover-2").mouseleave(function () {
+        $(".dropdown-content-2").hide(1000)
+
+      });
+
+    });
+
+
+    // $(document).ready(function () {
+    //     $(".slider").u();
+    //   });
+    //   $(".ticker").slider(() => {
+    //     $(".slider").slider(e) 
+    //   })
+    var video = document.getElementById("myVideo");
+
+    // Get the button
+    var btn = document.getElementById("myBtn");
+
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+
+</html>
